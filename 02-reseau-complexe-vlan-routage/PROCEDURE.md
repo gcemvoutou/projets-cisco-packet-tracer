@@ -118,20 +118,6 @@ Un commutateur maintient une **table d'adresses MAC** (mémoire CAM — *Content
 
 > ⚠️ Un port peut être associé à plusieurs adresses MAC (cas d'un switch en cascade), mais l'inverse n'est jamais vrai.
 
-               [ Trame reçue sur un port ]
-                            │
-                            ▼
-               [ Lecture MAC de destination ]
-                            │
-            ┌───────────────┴───────────────┐
-            ▼                               ▼
-    [ Adresse connue ? ]          [ Adresse inconnue ou Broadcast ? ]
-            │                               │
-            ▼ (Oui)                         ▼ (Oui)
-  [ Transfert vers le port ]     [ Diffusion (flooding) sur TOUS ]
-       [ correspondant ]         [ les ports (sauf le port d'entrée) ]
-
-
 ```
 Switch> show mac-address-table
 ```
