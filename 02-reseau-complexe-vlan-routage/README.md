@@ -11,7 +11,7 @@ Le projet permet de mettre en pratique différentes notions de **réseaux, routa
 > [!NOTE]
 > Schéma finale
 
-<img src="images/1.png" alt="Schema Finale" width="80%">
+<img src="images/1.png" alt="Schema Finale" width="90%">
 
 ---
 
