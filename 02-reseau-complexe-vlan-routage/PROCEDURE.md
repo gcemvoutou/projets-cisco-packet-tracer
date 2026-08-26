@@ -1,5 +1,8 @@
 # Réseau complexe — VLANs, routage inter-sites et sécurisation Cisco
 
+![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7?logo=cisco&logoColor=white)
+![Type](https://img.shields.io/badge/Type-Scolaire-blue)
+
 Projet réalisé sous **Cisco Packet Tracer**, construit progressivement : adressage IP d'un réseau multi-services, puis ajout du WiFi, sécurisation des équipements, VPN vers un site distant, et enfin segmentation en VLANs avec routage inter-VLAN.
 
 ## Sommaire
