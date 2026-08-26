@@ -122,7 +122,7 @@ Un commutateur maintient une **table d'adresses MAC** (mémoire CAM — *Content
 Switch> show mac-address-table
 ```
 **Schéma "Switch Learn and Forward"**: 
-<img src="images/schema_Learn_Forward.png" alt="Learn and Forward" width="20%">
+<img src="images/schema_Learn_Forward.jfif" alt="Learn and Forward" width="20%">
    
 
                          
