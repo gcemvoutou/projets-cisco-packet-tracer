@@ -124,7 +124,9 @@ Switch> show mac-address-table
 > [!NOTE]
 > **Schéma "Switch Learn and Forward"**: 
 
-><img src="images/schema_Learn_Forward.jfif" alt="Learn and Forward" width="70%">
+<img src="images/schema_Learn_Forward.jfif" alt="Learn and Forward" width="70%">
+
+A finir AVANT PING APRES pING mis dans imagee*********************************************************
    
 
                          
