@@ -188,10 +188,10 @@ Dir-Exam(config-line)# login local
 **Connexion depuis un poste client :**
 
 ```
-ssh admin@192.168.100.2
+ssh -l admin 192.168.100.2
 ```
 
-> 📸 **Capture à insérer ici** : le terminal (CMD ou PuTTY) montrant la connexion SSH réussie vers le switch.
+> 📸 **Capture à insérer ici** : le terminal (CMD ou PuTTY) montrant la **Connexion SSH réussie vers le switch**.
 
 ---
 
