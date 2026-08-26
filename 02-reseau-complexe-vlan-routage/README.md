@@ -1,5 +1,8 @@
 # 🌐 Réseau complexe — Infrastructure Cisco
 
+![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7?logo=cisco&logoColor=white)
+![Type](https://img.shields.io/badge/Type-Scolaire-blue)
+
 ## 📌 Présentation
 
 Ce projet consiste à concevoir et configurer une **infrastructure réseau complète sous Cisco Packet Tracer** pour une administration composée de plusieurs services.
