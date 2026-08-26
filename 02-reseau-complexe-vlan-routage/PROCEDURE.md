@@ -127,10 +127,13 @@ Switch> show mac-address-table
 <img src="images/schema_Learn_Forward.jfif" alt="Learn and Forward" width="70%">
 
 A finir AVANT PING APRES pING mis dans imagee*********************************************************
-   
+
 
                          
 > 2. Un `show mac-address-table` avant/après un ping entre deux PC du même service, pour montrer le remplissage de la table.
+
+[!NOTE]
+La table MAC d'un commutateur change en temps réel grâce au mécanisme Learn and Forward : le switch apprend dynamiquement les adresses MAC source des tranches qui traversent ses ports et les supprime automatiquement après une période d'inactivité (vieillissement).
 
 ### Rappel CLI Cisco IOS
 
