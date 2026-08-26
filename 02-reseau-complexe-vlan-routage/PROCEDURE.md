@@ -190,8 +190,9 @@ Dir-Exam(config-line)# login local
 ```
 ssh -l admin 192.168.100.2
 ```
+**Connexion SSH réussie vers le switch ✅**.
 
-> 📸 **Capture à insérer ici** : le terminal (CMD ou PuTTY) montrant la **Connexion SSH réussie vers le switch**.
+<img src="images/ssh_reussi.png" alt="Avant Ping" width="30%">
 
 ---
 
