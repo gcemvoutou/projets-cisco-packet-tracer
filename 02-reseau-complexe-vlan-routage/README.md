@@ -122,9 +122,3 @@ La **procédure complète** du projet est disponible dans :
 ➡️ [`PROCEDURE.md`](PROCEDURE.md)
 
 Elle détaille les différentes étapes de configuration ainsi que les commandes Cisco utilisées.
-
----
-
-## 👩‍💻 Projet
-
-Projet réalisé dans le cadre de ma formation en **BTS SIO – option SISR**, avec pour objectif de mettre en pratique les connaissances acquises en **infrastructure réseau, administration Cisco et cybersécurité**.
