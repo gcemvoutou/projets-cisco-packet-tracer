@@ -29,7 +29,7 @@ Les différents services sont séparés logiquement afin de construire une infra
 
 ---
 
-## 🔀 Segmentation réseau
+## Segmentation réseau
 
 Chaque service dispose de son propre **VLAN et sous-réseau IP**.
 
@@ -52,7 +52,7 @@ Cette segmentation permet de limiter les domaines de diffusion et de séparer le
 
 ---
 
-## 🌍 Interconnexion des sites
+## Interconnexion des sites
 
 Le projet comprend également un **site distant** composé d'un routeur, d'un switch et de plusieurs équipements utilisateurs.
 
@@ -60,7 +60,7 @@ La communication entre le site principal et le site distant repose sur une inter
 
 ---
 
-## 🔐 Sécurisation
+## Sécurisation
 
 La sécurité des équipements réseau fait également partie du projet.
 
@@ -76,7 +76,7 @@ L'administration distante est réalisée avec **SSH**, avec notamment :
 
 ---
 
-## 📡 Wi-Fi
+## Wi-Fi
 
 Un réseau Wi-Fi dédié est intégré à l'infrastructure afin de permettre la connexion de différents périphériques.
 
@@ -84,7 +84,7 @@ Le réseau utilise un **point d'accès AP-PT** et une sécurité **WPA2-PSK**.
 
 ---
 
-## 🧪 Tests et validation
+## Tests et validation
 
 Une série de tests permet de vérifier le bon fonctionnement de l'infrastructure :
 
@@ -98,7 +98,7 @@ Une série de tests permet de vérifier le bon fonctionnement de l'infrastructur
 
 ---
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - **Cisco Packet Tracer**
 - **Cisco IOS**
@@ -113,7 +113,7 @@ Une série de tests permet de vérifier le bon fonctionnement de l'infrastructur
 
 ---
 
-## 🎯 Objectifs pédagogiques
+## Objectifs pédagogiques
 
 Ce projet permet de développer des compétences dans :
 
