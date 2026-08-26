@@ -115,21 +115,6 @@ Une série de tests permet de vérifier le bon fonctionnement de l'infrastructur
 
 ---
 
-## Objectifs pédagogiques
-
-Ce projet permet de développer des compétences dans :
-
-- la conception d'une architecture réseau ;
-- l'adressage et le découpage en sous-réseaux ;
-- la configuration de switchs et routeurs Cisco ;
-- la segmentation avec les VLANs ;
-- le routage inter-VLAN ;
-- l'interconnexion de réseaux distants ;
-- la sécurisation des équipements ;
-- le diagnostic et la validation d'une infrastructure réseau.
-
----
-
 ## 📖 Documentation
 
 La **procédure complète** du projet est disponible dans :
