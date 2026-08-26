@@ -8,6 +8,9 @@ L'infrastructure intègre plusieurs réseaux dédiés aux différents services, 
 
 Le projet permet de mettre en pratique différentes notions de **réseaux, routage, commutation, segmentation et sécurité**.
 
+> [!NOTE]
+> Schéma finale
+
 <img src="images/1.png" alt="Schema Finale" width="80%">
 
 ---
