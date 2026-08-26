@@ -480,13 +480,3 @@ Destination filename [running-config]?
 > 💡 Dans Packet Tracer, ces commandes s'exécutent depuis l'onglet **CLI** de l'équipement (mêmes commandes qu'en conditions réelles).
 
 > 📸 **Capture à insérer ici** : le `show file systems` du routeur (taille flash/NVRAM) et le résultat du `copy running-config startup-config` (`[OK]`).
-
----
-
-## Ce que retient ce projet
-
-- Construire un plan d'adressage cohérent **avant** de toucher à la configuration (un sous-réseau `/24` par service).
-- Sécuriser systématiquement l'accès à un équipement Cisco : SSH plutôt que Telnet, mots de passe chiffrés, bannière légale, VLAN d'administration dédié plutôt que le VLAN 1 par défaut.
-- Interconnecter un site distant via VPN IPsec suppose une liaison série entre routeurs et une route statique de part et d'autre.
-- Les VLANs réduisent les domaines de diffusion sans multiplier le matériel ; le routage inter-VLAN se fait via des interfaces virtuelles (SVI) sur un commutateur de niveau 3, chacune servant de passerelle à son sous-réseau.
-- Une configuration Cisco n'est jamais définitive tant qu'elle n'a pas été copiée de la RAM (`running-config`) vers la NVRAM (`startup-config`) : un simple redémarrage suffit à tout perdre sans ce réflexe.
