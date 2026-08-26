@@ -74,7 +74,7 @@ Les 2 PC de chaque service prennent les premières adresses du réseau (`.1`, `.
 | PC2-Dir | Direction | 20 | `192.168.20.2` | `255.255.255.0` | `192.168.20.254` |
 | IMP-Dir | Direction | 40 | `192.168.40.1` | `255.255.255.0` | `192.168.40.254` |
 
-<img src="images/4.png" alt="Pc et imprimante de la direction" width="90%">
+<img src="images/4.png" alt="Pc et imprimante de la direction" width="50%">
 
 ---
 
