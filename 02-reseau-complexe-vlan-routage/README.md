@@ -15,7 +15,7 @@ Le projet permet de mettre en pratique différentes notions de **réseaux, routa
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 L'infrastructure repose sur :
 
