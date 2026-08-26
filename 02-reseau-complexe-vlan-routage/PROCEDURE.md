@@ -96,6 +96,12 @@ Un point d'accès **AP-PT** (niveau 2) est raccordé au cœur de réseau, sur un
 |---|---|---|
 | Metropole | WPA2-PSK | `1234-Metropole:1234` |
 
+<img src="images/3.png" alt="Point d'accès AP-PT" width="50%">
+
+[!TIP]
+Test de ping réussi du laptop vers le smartphone.
+<img src="images/5.png" alt="Ping réussi" width="50%">
+
 ---
 
 ## IV. Rappels : commutation de couche 2
