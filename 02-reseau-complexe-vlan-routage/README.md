@@ -83,7 +83,7 @@ Un réseau Wi-Fi dédié est intégré à l'infrastructure afin de permettre la 
 
 Le réseau utilise un **point d'accès AP-PT** et une sécurité **WPA2-PSK**.
 
-<img src="images/3.png" alt="Point d'accès AP-PT" width="35%">
+<img src="images/3.png" alt="Point d'accès AP-PT" width="50%">
 ---
 
 ## Tests et validation
