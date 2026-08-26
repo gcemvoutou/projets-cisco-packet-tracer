@@ -123,43 +123,7 @@ Switch> show mac-address-table
 ```
 **Schéma "Switch Learn and Forward"**: 
 
-     [ Arrivée d'une trame Ethernet ]
-                                │
-                                ▼
-         ┌──────────────────────────────────────────────┐
-         │          Phase 1 : APPRENTISSAGE             │
-         │       Lecture de l'adresse MAC SOURCE        │
-         └──────────────────────┬───────────────────────┘
-                                │
-                                ▼
-         ┌──────────────────────────────────────────────┐
-         │ L'association [MAC Source <-> Port Entry]   │
-         │     est-elle dans la Table CAM ?             │
-         └──────────────────────┬───────────────────────┘
-                                ├── Oui ──► [ Réinitialiser le Timer (Aging) ]
-                                │
-                                └── Non ──► [ Ajouter l'entrée à la Table CAM ]
-                                │
-                                ▼
-         ┌──────────────────────────────────────────────┐
-         │            Phase 2 : TRANSFERT               │
-         │     Lecture de l'adresse MAC DESTINATION     │
-         └──────────────────────┬───────────────────────┘
-                                │
-          Quel est le type de l'adresse MAC Destination ?
-                                │
-       ┌────────────────────────┼────────────────────────┐
-       ▼                        ▼                        ▼
- [ Unicast Connue ]      [ Unicast Inconnue ]      [ Broadcast / Multicast ]
-       │                        │                        │
-       ▼                        ▼                        ▼
-┌──────────────┐         ┌──────────────┐         ┌──────────────┐
-│  FORWARD     │         │  FLOODING    │         │  FLOODING    │
-│ Envoi unique │         │ Copie sur    │         │ Copie sur    │
-│ sur le port  │         │ tous les     │         │ tous les     │
-│ associé.     │         │ ports actifs │         │ ports du     │
-└──────────────┘         │ (sauf source)│         │ même VLAN.   │
-                         └──────────────┘         └──────────────┘
+   
 
                          
 > 2. Un `show mac-address-table` avant/après un ping entre deux PC du même service, pour montrer le remplissage de la table.
