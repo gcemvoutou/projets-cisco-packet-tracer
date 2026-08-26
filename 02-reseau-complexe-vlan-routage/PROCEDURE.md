@@ -192,6 +192,8 @@ ssh -l admin 192.168.100.2
 ```
 **Connexion SSH réussie vers le switch ✅**.
 
+MAUVAISE CAPTURE METTRE LA BONNE 
+
 <img src="images/ssh_reussi.png" alt="Avant Ping" width="30%">
 
 ---
