@@ -58,7 +58,7 @@ Le projet comprend également un **site distant** composé d'un routeur, d'un sw
 
 La communication entre le site principal et le site distant repose sur une interconnexion entre routeurs avec mise en œuvre du **routage** et d'un **VPN IPsec**.
 
-<img src="images/2.png" alt="Site distant relié via VPN" width="50%">
+<img src="images/2.png" alt="Site distant relié via VPN" width="40%">
 ---
 
 ## Sécurisation
