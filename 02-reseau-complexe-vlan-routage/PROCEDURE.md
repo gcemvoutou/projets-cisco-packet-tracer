@@ -126,7 +126,14 @@ Switch> show mac-address-table
 
 <img src="images/schema_Learn_Forward.jfif" alt="Learn and Forward" width="70%">
 
-A finir AVANT PING APRES pING mis dans imagee*********************************************************
+**Évolution de la table MAC avant et après un test de ping**
+
+*Avant Ping*
+
+*Après Ping*
+
+[!NOTE]
+La table MAC d'un commutateur change dynamiquement au fil du trafic et du temps, reflétant l'activité en temps réel de ses ports.
 
 
                          
