@@ -130,7 +130,11 @@ Switch> show mac-address-table
 
 *Avant Ping*
 
+<img src="images/avant_ping.png" alt="Avant Ping" width="40%">
+
 *Après Ping*
+
+<img src="images/apres_ping.png" alt="Avant Ping" width="40%">
 
 [!NOTE]
 La table MAC d'un commutateur change dynamiquement au fil du trafic et du temps, reflétant l'activité en temps réel de ses ports.
