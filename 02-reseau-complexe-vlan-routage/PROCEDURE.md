@@ -40,7 +40,7 @@ Chaque service est relié à un commutateur d'accès (2960), lui-même relié au
 | Commutateur d'accès | `f0/1` à `f0/24`, `g0/1`, `g0/2` | à partir de 1 |
 | Cœur de réseau (niveau 3) | `g1/0/1` à `g1/0/24`, `g1/1/1` à `g1/1/4` | — |
 
-> 📸 **Capture à insérer ici** : le schéma manuscrit du réseau complet (topologie en étoile avec les 6 services + salle serveur + routeur + cœur de réseau).
+<img src="images/1.png" alt="Schema Finale" width="90%">
 
 ---
 
