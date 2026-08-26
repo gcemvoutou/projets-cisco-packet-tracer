@@ -65,7 +65,8 @@ Chaque service dispose de son propre sous-réseau en `/24` :
 
 Les 2 PC de chaque service prennent les premières adresses du réseau (`.1`, `.2`), l'imprimante et les serveurs sont regroupés respectivement dans les réseaux `.40` et `.30`, avec un dernier octet identifiant le service (ex : `192.168.40.1` = imprimante Direction, `192.168.40.5` = imprimante Médecine).
 
-Exemple
+> [!TIP]
+> Exemple pour les deux premiers PC et l'imprimante de la direction (à appliquer sur tous les postes).
 
 | PC | Service | VLAN | Adresse IP | Masque | Passerelle |
 |---|---|---:|---|---|---|
