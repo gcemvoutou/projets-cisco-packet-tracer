@@ -136,15 +136,9 @@ Switch> show mac-address-table
 
 <img src="images/apres_ping.png" alt="Avant Ping" width="40%">
 
-[!NOTE]
-La table MAC d'un commutateur change dynamiquement au fil du trafic et du temps, reflétant l'activité en temps réel de ses ports.
+>[!NOTE]
+>La table MAC d'un commutateur change dynamiquement au fil du trafic et du temps, reflétant l'activité en temps réel de ses ports.
 
-
-                         
-> 2. Un `show mac-address-table` avant/après un ping entre deux PC du même service, pour montrer le remplissage de la table.
-
-[!NOTE]
-La table MAC d'un commutateur change en temps réel grâce au mécanisme Learn and Forward : le switch apprend dynamiquement les adresses MAC source des tranches qui traversent ses ports et les supprime automatiquement après une période d'inactivité (vieillissement).
 
 ### Rappel CLI Cisco IOS
 
