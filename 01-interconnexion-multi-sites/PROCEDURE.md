@@ -54,7 +54,7 @@ Au départ, très peu d'équipements étaient connectés sur Switch3 (situation 
 
 Connexion de PC0 au serveur avec un câble croisé.
 
-<img src="images/1.png" alt="Cablage PC0" width="70%">
+<img src="images/1.png" alt="Cablage PC0" width="20%">
 
 **Étape 2 – Configuration IP statique sur PC0**
 
