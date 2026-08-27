@@ -215,11 +215,9 @@ ssh -l admin 192.168.100.2
 | 192.168.110.1 | 192.168.110.2 | 192.168.110.3 | 192.168.110.254 |
 
 **Schéma du site distant:**
-
 <img src="images/2.png" alt="Connexion VPN" width="35%">
 
 **L'ajout de la carte HWIC-2T dans le routeur (vue physique Packet Tracer)**.
-
 <img src="images/carte HWIC-2T.png" alt="Carte HWIC-2T" width="35%">
 
 ### Sécurisation du routeur distant
@@ -473,8 +471,6 @@ ping 192.168.10.2       ! cœur de réseau (interface routée)
 ```
 
 **Tests de connectivité inter-VLAN (depuis un PC vers sa passerelle SVI) :** réalisés avec succès depuis PC1-Dir (VLAN 20), le PC admin (VLAN 100) et PC2-Assurance (VLAN 25).
-
-> 📸 **Captures à insérer ici** :
 
 **Ping réussi depuis PC1-Dir vers 192.168.20.254 :**
 <img src="images/Pc1-Dir.png" alt="show vlan brief sur le switchDir-Exam" width="50%">
