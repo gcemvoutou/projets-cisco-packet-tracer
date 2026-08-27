@@ -370,7 +370,7 @@ Dir-Exam(config-if)# switchport access vlan 20
 
 >[!NOTE]
 > Show vlan brief sur le switch "Dir-Exam"
-<img src="images/show_vlan_biref.png" alt="show vlan brief sur le switchDir-Exam" width="50%">
+<img src="images/show_vlan_brief.png" alt="show vlan brief sur le switchDir-Exam" width="50%">
 
 **Commandes utiles pour la gestion des VLANs :**
 
