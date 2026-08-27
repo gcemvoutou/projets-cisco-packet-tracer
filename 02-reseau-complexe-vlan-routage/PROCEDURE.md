@@ -531,4 +531,22 @@ Destination filename [running-config]?
 
 > 💡 Dans Packet Tracer, ces commandes s'exécutent depuis l'onglet **CLI** de l'équipement (mêmes commandes qu'en conditions réelles).
 
-> 📸 **Capture à insérer ici** : le `show file systems` du routeur (taille flash/NVRAM) et le résultat du `copy running-config startup-config` (`[OK]`).
+**Show file systems** du routeur Metro: 
+
+<img src="images/show_files_system.png" alt="Files system" width="30%">
+
+> [!NOTE]
+> **Rôle de la commande :** Elle liste l'ensemble des systèmes de stockage et de fichiers disponibles sur l'équipement (mémoires flash, NVRAM, etc.).
+> * **La mémoire Flash (`flash0:` / `flash:`) :**
+> * C'est la mémoire de stockage principale et non volatile (de type disque).
+> * Elle contient l'image du système d'exploitation (l'IOS Cisco) ainsi que les fichiers de configuration de secours ou scripts.
+> * On y lit sa taille totale en octets (`Size`), l'espace libre (`Free`), son type (`disk`), ses droits en lecture/écriture (`rw`), et son préfixe d'accès.
+
+> * **La mémoire NVRAM (`nvram:`) :**
+> * C'est la mémoire non volatile où est stockée la configuration de démarrage (`startup-config`).
+> * Sa capacité est beaucoup plus faible (environ 262 Ko ici) car elle ne contient que du texte de configuration.
+
+**Résultat du `copy running-config startup-config** : 
+
+<img src="images/copy running.png" alt="Copy running" width="30%">
+
