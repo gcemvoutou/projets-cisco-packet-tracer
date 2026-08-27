@@ -1,6 +1,7 @@
-# Configuration-et-Routage-Statique-Multi-Routeurs
-Ce projet consiste à configurer une infrastructure réseau complète composée de 4 routeurs (R1 déjà configuré, R2, R3, R4) et de plusieurs réseaux LAN. L'objectif final est d'assurer une connectivité totale via du routage statique optimisé.
+# Configuration-et-Routage-Statique-Multi-Routeurs : 
 
+![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7?logo=cisco&logoColor=white)
+![Type](https://img.shields.io/badge/Type-Scolaire-blue)
 ---
  
 ## Partie 1 — Configuration des interfaces des routeurs
