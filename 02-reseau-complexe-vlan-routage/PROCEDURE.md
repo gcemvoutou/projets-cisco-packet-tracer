@@ -368,7 +368,9 @@ Dir-Exam(config-if)# switchport mode access
 Dir-Exam(config-if)# switchport access vlan 20
 ```
 
-> 📸 **Capture à insérer ici** : `show vlan brief` sur le switch `Dir-Exam`, montrant les VLANs 20/21/40/50/100 actifs avec leurs ports respectifs.
+>[!NOTE]
+> Show vlan brief sur le switch "Dir-Exam"
+<img src="images/show_vlan_biref.png" alt="show vlan brief sur le switchDir-Exam" width="50%">
 
 **Commandes utiles pour la gestion des VLANs :**
 
