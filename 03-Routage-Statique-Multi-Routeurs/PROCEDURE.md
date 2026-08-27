@@ -2,7 +2,6 @@
 
 ![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7?logo=cisco&logoColor=white)
 ![Type](https://img.shields.io/badge/Type-Scolaire-blue)
----
  
 ## Partie 1 — Configuration des interfaces des routeurs
  
