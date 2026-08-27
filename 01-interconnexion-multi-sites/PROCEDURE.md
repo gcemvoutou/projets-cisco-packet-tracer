@@ -52,9 +52,9 @@ Au départ, très peu d'équipements étaient connectés sur Switch3 (situation 
 
 **Étape 1 – Connexion du premier PC**
 
-Connexion de PC0 au serveur avec un câble droit.
+Connexion de PC0 au serveur avec un câble croisé.
 
-![Cablage PC0](images/3.png)
+![Cablage PC0](images/2.png)
 
 **Étape 2 – Configuration IP statique sur PC0**
 
