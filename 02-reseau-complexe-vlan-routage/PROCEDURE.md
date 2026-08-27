@@ -511,7 +511,7 @@ Le routeur reconnaît aussi quelques commandes façon DOS pour naviguer dans ses
 
 **Show file systems** du routeur Metro: 
 
-<img src="images/show_files_system.png" alt="Files system" width="30%">
+<img src="images/show_files_system.png" alt="Files system" width="40%">
 
 > [!NOTE]
 > **Rôle de la commande :** Elle liste l'ensemble des systèmes de stockage et de fichiers disponibles sur l'équipement (mémoires flash, NVRAM, etc.).
@@ -532,7 +532,7 @@ Building configuration...
 ```
 **Résultat du `copy running-config startup-config** : 
 
-<img src="images/copy running.png" alt="Copy running" width="30%">
+<img src="images/copy running.png" alt="Copy running" width="40%">
 
 ### Recharger la configuration initiale
 
