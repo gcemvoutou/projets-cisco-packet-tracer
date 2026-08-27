@@ -281,7 +281,9 @@ RouteurVPN(config)# interface loopback 0
 RouteurVPN(config-if)# ip address 192.168.200.2 255.255.255.0
 ```
 
-> 📸 **Capture à insérer ici** : le schéma manuscrit avec les adresses des interfaces (`192.168.100.254` / `10.0.0.1` / `10.0.0.2` / `192.168.110.254`) entre Routeur Métro et Routeur VPN.
+**Le schéma manuscrit avec les adresses des interfaces (`192.168.100.254` / `10.0.0.1` / `10.0.0.2` / `192.168.110.254`) entre Routeur Métro et Routeur VPN.** :
+
+<img src="images/schema_manuscrit.png" alt="Schema_manuscrit" width="40%">
 
 ---
 
