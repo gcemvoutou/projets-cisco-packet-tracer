@@ -513,9 +513,6 @@ Le routeur reconnaît aussi quelques commandes façon DOS pour naviguer dans ses
 
 <img src="images/show_files_system.png" alt="Files system" width="40%">
 
-> [!NOTE]
-> **Rôle de la commande :** Elle liste l'ensemble des systèmes de stockage et de fichiers disponibles sur l'équipement (mémoires flash, NVRAM, etc.).
-
 > **La mémoire Flash (flash0: / flash:)** : Stockage principal non volatile (type disque). Elle contient l'image du système d'exploitation (l'IOS Cisco), l'espace libre (Free) et ses droits en lecture/écriture (rw).
 
 > **La mémoire NVRAM (nvram:)** : Mémoire non volatile dédiée à la configuration de démarrage (startup-config). Sa capacité est plus faible car elle ne contient que du texte.
