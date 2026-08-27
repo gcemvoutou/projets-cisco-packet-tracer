@@ -83,7 +83,7 @@ Ajout d'un switch supplémentaire dans la zone Taco :
 3. Configuration IP statique sur le deuxième PC : `192.168.0.2 /24`
 4. Tests finaux : ping PC ↔ serveur et PC ↔ PC → **réussis ✅**
 
-<img src="images/2.png" alt="Ping PC" width="20%">
+<img src="images/2.png" alt="Ping PC" width="40%">
 
 ---
 
@@ -118,13 +118,13 @@ Attribution des adresses statiques sur PC1 et PC2 avec passerelle `192.168.100.2
 
 Ping d'un PC Biclou vers un PC Taco :
 
-![Configuration PC2](images/16.png) 
+<img src="images/3.png" alt="Configuration PC2" width="40%">
 
 **Étape 4 – Configuration des ports Gigabit**
 
 Activation des ports FastEthernet sur les switches concernés et vérification de la stabilité après modification.
 
-![Show interface](images/7.png)
+<img src="images/4.png" alt="Show interface" width="40%">
 
 ---
 
@@ -158,19 +158,19 @@ Dans `Services → DHCP` sur Server1 :
 | Passerelle par défaut | `192.168.100.254` |
 | Serveur DNS | Ajouté en mission 5 |
 
-![interface DHCP configuré](images/C9.png)
+<img src="images/5.png" alt="interface DHCP configuré" width="40%">
 
 **Étape 3 – Activation DHCP sur les laptops**
 
 Les PC fixes conservent leur IP statique. Les deux nouveaux laptops sont configurés en DHCP → ils obtiennent automatiquement une adresse dans la plage `192.168.100.10 – 192.168.100.50`.
 
-![IP Configuration laptop avec DHCP ](images/10.png)
+<img src="images/6.png" alt="IP Configuration laptop avec DHCP" width="40%">
 
 **Étape 4 – Test de connectivité**
 
 Ping du Laptop1 vers le serveur DHCP (`192.168.100.250`) → **réussi ✅**
 
-![ping laptop → 192.168.100.250](images/11.png)
+<img src="images/7.png" alt="ping laptop 192.168.100.250" width="40%">
 
 ---
 
@@ -196,11 +196,11 @@ Mettre en place un serveur DNS sur Server1 et héberger un site intranet accessi
 - Activation du service DNS sur Server1 (`192.168.100.250`)
 - Ajout des enregistrements de type A listés ci-dessus
 
-![Interface DNS ](images/12.png)
+<img src="images/8.png" alt="Interface DNS" width="40%">
 
 - Activation du service HTTP (et HTTPS) pour héberger la page intranet
 
-![Interface HTTP](images/13.png)
+<img src="images/9.png" alt="Interface HTTP" width="40%">
 
 **Étape 2 – Configuration DNS statique sur PC1 et PC2**
 
@@ -217,11 +217,11 @@ Ping par nom de domaine :
 ```
 ping intranet.biclou.fr  →  résolution correcte ✅  (192.168.100.250)
 ```
-![Ping intranet.biclou.fr](images/14.png)
+<img src="images/10.png" alt="Ping intranet.biclou.fr" width="40%">
 
 Analyse en mode simulation : observation des échanges DNS (requête + réponse) puis ICMP.
 
-![Mode simulation (paquets DNS puis ICMP)](images/15.png)
+<img src="images/11.png" alt="paquets DNS puis ICMP" width="40%">
 
 Accès au site intranet depuis un navigateur Packet Tracer :
 
@@ -229,7 +229,7 @@ Accès au site intranet depuis un navigateur Packet Tracer :
 http://intranet.biclou.fr  →  page web affichée ✅
 ```
 
-![Portail BICLOU – Espace Salariés](images/17.png)
+<img src="images/12.png" alt="Portail BICLOU" width="40%">
 
 > Le portail intranet a été développé dans l'onglet `index.html` du service HTTP de Server1.
 
