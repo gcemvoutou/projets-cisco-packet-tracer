@@ -1,6 +1,6 @@
 # Projets Cisco Packet Tracer
 
-Portfolio de projets réseaux réalisés sous **Cisco Packet Tracer**. Chaque dossier documente un scénario réseau complet : conception, adressage, configuration CLI, et vérifications.
+Ensemble de projets réseaux réalisés sous **Cisco Packet Tracer**. Chaque dossier documente un scénario réseau complet : conception, adressage, configuration CLI, et vérifications.
 
 Les projets sont classés par ordre chronologique et suivent une progression technique, du plus simple (interconnexion basique de deux sites) au plus complexe (segmentation VLAN, routage inter-VLAN, VPN, puis routage statique multi-routeurs).
 
@@ -32,22 +32,6 @@ Les projets sont classés par ordre chronologique et suivent une progression tec
 
 [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer) — simulateur réseau utilisé pour concevoir, configurer et tester chaque topologie avant toute mise en situation réelle.
 
----
-
-## 📁 Structure du dépôt
-
-```
-projets-cisco-packet-tracer/
-├── 01-interconnexion-multi-sites/
-│   ├── README.md          ← présentation du projet
-│   └── PROCEDURE.md        ← procédure technique détaillée
-├── 02-reseau-complexe-vlan-routage/
-│   ├── README.md
-│   └── PROCEDURE.md
-├── 03-Routage-Statique-Multi-Routeurs/
-│   ├── README.md
-│   └── PROCEDURE.md
-└── images/                 ← captures d'écran utilisées dans les README/PROCEDURE
 ```
 
 Chaque projet suit la même logique de documentation : un **README.md** pour présenter le contexte, les objectifs et les compétences mobilisées, et un **PROCEDURE.md** pour le détail technique pas à pas (schémas, plans d'adressage, commandes CLI, vérifications).
