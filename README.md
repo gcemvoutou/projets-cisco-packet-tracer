@@ -32,6 +32,6 @@ Les projets sont classés par ordre chronologique et suivent une progression tec
 
 [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer) — simulateur réseau utilisé pour concevoir, configurer et tester chaque topologie avant toute mise en situation réelle.
 
-```
 
-Chaque projet suit la même logique de documentation : un **README.md** pour présenter le contexte, les objectifs et les compétences mobilisées, et un **PROCEDURE.md** pour le détail technique pas à pas (schémas, plans d'adressage, commandes CLI, vérifications).
+> [!NOTE]
+>Chaque projet suit la même logique de documentation : un **README.md** pour présenter le contexte, les objectifs et les compétences mobilisées, et un **PROCEDURE.md** pour le détail technique pas à pas (schémas, plans d'adressage, commandes CLI, vérifications).
