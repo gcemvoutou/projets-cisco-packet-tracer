@@ -117,6 +117,15 @@ Une série de tests permet de vérifier le bon fonctionnement de l'infrastructur
 - **Wi-Fi / WPA2**
 
 ---
+## 📁 Contenu du repo
+
+| Fichier | Description |
+|---|---|
+| `README.md` | Présentation du projet |
+| `PROCEDURE.md` | Compte rendu technique détaillé avec screenshots |
+| `reseau_complexe.pkt` | Fichier Cisco Packet Tracer |
+| `images/` | Captures d'écran des étapes |
+
 
 ## 📖 Documentation
 
