@@ -34,7 +34,7 @@ Ce TP simule l'interconnexion de deux entreprises via un cœur de réseau :
 
 La topologie évolue au fil des missions avec l'ajout de matériel, la configuration de services (DHCP, DNS, HTTP) et la vérification de la connectivité inter-entreprises.
 
-![Schéma Final](images/0.png)
+<img src="images/0.png" alt="Schema Finale" width="90%">
 
 ---
 
@@ -54,7 +54,7 @@ Au départ, très peu d'équipements étaient connectés sur Switch3 (situation 
 
 Connexion de PC0 au serveur avec un câble croisé.
 
-![Cablage PC0](images/1.png)
+<img src="images/1.png" alt="Cablage PC0" width="70%">
 
 **Étape 2 – Configuration IP statique sur PC0**
 
