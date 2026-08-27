@@ -118,7 +118,7 @@ Attribution des adresses statiques sur PC1 et PC2 avec passerelle `192.168.100.2
 
 Ping d'un PC Biclou vers un PC Taco :
 
-<img src="images/3.png" alt="Configuration PC2" width="40%">
+<img src="images/3.png" alt="Configuration PC2" width="50%">
 
 **Étape 4 – Configuration des ports Gigabit**
 
