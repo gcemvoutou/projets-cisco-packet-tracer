@@ -74,8 +74,6 @@ ping 192.168.0.1  →  réussi ✅
 
 Message Packet Tracer : `No available port` (plus de ports libres sur Switch3).
 
-![Erreur No Available Ports](images/2.png)
-
 ### Solution appliquée
 
 Ajout d'un switch supplémentaire dans la zone Taco :
