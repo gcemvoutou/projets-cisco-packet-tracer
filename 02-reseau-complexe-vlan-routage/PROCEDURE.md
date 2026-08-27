@@ -515,14 +515,10 @@ Le routeur reconnaît aussi quelques commandes façon DOS pour naviguer dans ses
 
 > [!NOTE]
 > **Rôle de la commande :** Elle liste l'ensemble des systèmes de stockage et de fichiers disponibles sur l'équipement (mémoires flash, NVRAM, etc.).
-> * **La mémoire Flash (`flash0:` / `flash:`) :**
-> * C'est la mémoire de stockage principale et non volatile (de type disque).
-> * Elle contient l'image du système d'exploitation (l'IOS Cisco) ainsi que les fichiers de configuration de secours ou scripts.
-> * On y lit sa taille totale en octets (`Size`), l'espace libre (`Free`), son type (`disk`), ses droits en lecture/écriture (`rw`), et son préfixe d'accès.
 
-> * **La mémoire NVRAM (`nvram:`) :**
-> * C'est la mémoire non volatile où est stockée la configuration de démarrage (`startup-config`).
-> * Sa capacité est beaucoup plus faible (environ 262 Ko ici) car elle ne contient que du texte de configuration.
+> **La mémoire Flash (flash0: / flash:)** : Stockage principal non volatile (type disque). Elle contient l'image du système d'exploitation (l'IOS Cisco), l'espace libre (Free) et ses droits en lecture/écriture (rw).
+
+> **La mémoire NVRAM (nvram:)** : Mémoire non volatile dédiée à la configuration de démarrage (startup-config). Sa capacité est plus faible car elle ne contient que du texte.
 
 ### Sauvegarder la configuration en cours
 
@@ -534,6 +530,9 @@ Destination filename [startup-config]?
 Building configuration...
 [OK]
 ```
+**Résultat du `copy running-config startup-config** : 
+
+<img src="images/copy running.png" alt="Copy running" width="30%">
 
 ### Recharger la configuration initiale
 
@@ -547,7 +546,5 @@ Destination filename [running-config]?
 > 💡 Dans Packet Tracer, ces commandes s'exécutent depuis l'onglet **CLI** de l'équipement (mêmes commandes qu'en conditions réelles).
 
 
-**Résultat du `copy running-config startup-config** : 
 
-<img src="images/copy running.png" alt="Copy running" width="30%">
 
