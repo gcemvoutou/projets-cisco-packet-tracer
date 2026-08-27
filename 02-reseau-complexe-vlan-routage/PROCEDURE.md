@@ -476,17 +476,17 @@ ping 192.168.10.2       ! cœur de réseau (interface routée)
 
 **Tests de connectivité inter-VLAN (depuis un PC vers sa passerelle SVI) :** réalisés avec succès depuis PC1-Dir (VLAN 20), le PC admin (VLAN 100) et PC2-Assurance (VLAN 25).
 
-*Ping réussi depuis PC1-Dir vers 192.168.20.254 :*
+**Ping réussi depuis PC1-Dir vers 192.168.20.254 :**
 
-<img src="images/Pc1-Dir.png" alt="Capture écran Ping réussi depuis PC1-Dir" width="50%">
+<img src="images/Pc1-Dir.png" alt="Capture écran Ping réussi depuis PC1-Dir" width="30%">
 
-*Ping réussi depuis le PC admin vers 192.168.100.254 :*
+**Ping réussi depuis le PC admin vers 192.168.100.254 :**
 
-<img src="images/Pc-admin.png" alt="Capture écran Ping réussi depuis PC admin" width="50%">
+<img src="images/Pc-admin.png" alt="Capture écran Ping réussi depuis PC admin" width="30%">
 
-*Ping réussi depuis PC2-Assurance vers 192.168.25.254 :*
+**Ping réussi depuis PC2-Assurance vers 192.168.25.254 :**
 
-<img src="images/Pc2-Assu.png" alt="Capture écran Ping réussi depuis PC2-Assurance" width="50%">
+<img src="images/Pc2-Assu.png" alt="Capture écran Ping réussi depuis PC2-Assurance" width="30%">
 
 ---
 
