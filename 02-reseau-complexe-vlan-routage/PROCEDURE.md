@@ -192,8 +192,6 @@ ssh -l admin 192.168.100.2
 ```
 **Connexion SSH réussie vers le switch ✅**.
 
-MAUVAISE CAPTURE METTRE LA BONNE 
-
 <img src="images/ssh_reussi.png" alt="Avant Ping" width="30%">
 
 ---
@@ -216,9 +214,14 @@ MAUVAISE CAPTURE METTRE LA BONNE
 |---|---|---|---|
 | 192.168.110.1 | 192.168.110.2 | 192.168.110.3 | 192.168.110.254 |
 
-> 📸 **Captures à insérer ici** :
-> 1. Le schéma manuscrit "Métropole ↔ lien VPN IPsec (liaison série) ↔ Site distant".
-> 2. L'ajout de la carte HWIC-2T dans le routeur (vue physique Packet Tracer).
+**Schéma du site distant:**
+
+<img src="images/2.png" alt="Connexion VPN" width="90%">
+
+**L'ajout de la carte HWIC-2T dans le routeur (vue physique Packet Tracer)**.
+
+<img src="images/carte HWIC-2T.png" alt="Carte HWIC-2T" width="90%">
+
 > 3. La topologie Packet Tracer du site distant (switch 2960 + PC1/PC2/IMP-VPN + routeur).
 
 ### Sécurisation du routeur distant
