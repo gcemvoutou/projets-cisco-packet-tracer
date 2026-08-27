@@ -1,4 +1,4 @@
-<img width="500" height="192" alt="image" src="https://github.com/user-attachments/assets/6b921355-ded2-4a9a-b9e8-861ee782343c" /># Réseau complexe — VLANs, routage inter-sites et sécurisation Cisco
+# Réseau complexe — VLANs, routage inter-sites et sécurisation Cisco
 
 ![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7?logo=cisco&logoColor=white)
 ![Type](https://img.shields.io/badge/Type-Scolaire-blue)
