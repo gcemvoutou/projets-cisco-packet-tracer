@@ -123,6 +123,7 @@ Une série de tests permet de vérifier le bon fonctionnement de l'infrastructur
 La **procédure complète** du projet est disponible dans :
 
 ➡️ [`PROCEDURE.md`](PROCEDURE.md)
+
 ➡️ [Télécharger la simulation Packet Tracer (.pkt)](./reseau_complexe.pkt)
 
 Elle détaille les différentes étapes de configuration ainsi que les commandes Cisco utilisées.
