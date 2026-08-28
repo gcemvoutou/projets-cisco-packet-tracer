@@ -170,7 +170,7 @@ Les PC fixes conservent leur IP statique. Les deux nouveaux laptops sont configu
 
 Ping du Laptop1 vers le serveur DHCP (`192.168.100.250`) → **réussi ✅**
 
-<img src="images/7.png" alt="ping laptop 192.168.100.250" width="40%">
+<img src="images/7.png" alt="ping laptop 192.168.100.250" width="60%">
 
 ---
 
@@ -196,11 +196,11 @@ Mettre en place un serveur DNS sur Server1 et héberger un site intranet accessi
 - Activation du service DNS sur Server1 (`192.168.100.250`)
 - Ajout des enregistrements de type A listés ci-dessus
 
-<img src="images/8.png" alt="Interface DNS" width="40%">
+<img src="images/8.png" alt="Interface DNS" width="60%">
 
 - Activation du service HTTP (et HTTPS) pour héberger la page intranet
 
-<img src="images/9.png" alt="Interface HTTP" width="40%">
+<img src="images/9.png" alt="Interface HTTP" width="60%">
 
 **Étape 2 – Configuration DNS statique sur PC1 et PC2**
 
@@ -217,11 +217,11 @@ Ping par nom de domaine :
 ```
 ping intranet.biclou.fr  →  résolution correcte ✅  (192.168.100.250)
 ```
-<img src="images/10.png" alt="Ping intranet.biclou.fr" width="40%">
+<img src="images/10.png" alt="Ping intranet.biclou.fr" width="60%">
 
 Analyse en mode simulation : observation des échanges DNS (requête + réponse) puis ICMP.
 
-<img src="images/11.png" alt="paquets DNS puis ICMP" width="40%">
+<img src="images/11.png" alt="paquets DNS puis ICMP" width="60%">
 
 Accès au site intranet depuis un navigateur Packet Tracer :
 
@@ -229,7 +229,7 @@ Accès au site intranet depuis un navigateur Packet Tracer :
 http://intranet.biclou.fr  →  page web affichée ✅
 ```
 
-<img src="images/12.png" alt="Portail BICLOU" width="40%">
+<img src="images/12.png" alt="Portail BICLOU" width="60%">
 
 > Le portail intranet a été développé dans l'onglet `index.html` du service HTTP de Server1.
 
