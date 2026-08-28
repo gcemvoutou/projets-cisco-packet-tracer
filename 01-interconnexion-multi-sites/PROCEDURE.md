@@ -219,7 +219,7 @@ ping intranet.biclou.fr  →  résolution correcte ✅  (192.168.100.250)
 ```
 <img src="images/10.png" alt="Ping intranet.biclou.fr" width="60%">
 
-Analyse en mode simulation : observation des échanges DNS (requête + réponse) puis ICMP.
+***Analyse en mode simulation : observation des échanges DNS (requête + réponse) puis ICMP.***
 
 <img src="images/11.png" alt="paquets DNS puis ICMP" width="60%">
 
