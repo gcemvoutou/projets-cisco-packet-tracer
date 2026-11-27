@@ -1,11 +1,6 @@
 # Compte Rendu de TP – Configuration Réseau avec Cisco Packet Tracer
 ### Interconnexion des réseaux Taco et Biclou
 
-| | |
-|---|---|
-| **Nom** | Clara |
-| **Classe** | SIO 27 |
-| **Logiciel** | Cisco Packet Tracer |
 
 **Objectif :** Mettre en place, faire évoluer et sécuriser un réseau inter-entreprises avec partage de ressources, adressage dynamique, résolution de noms et hébergement web.
 
